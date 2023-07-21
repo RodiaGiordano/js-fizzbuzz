@@ -21,14 +21,17 @@ h1{
     margin: auto;
     display: flex;
     flex-wrap: wrap;
+    gap: 20px;
     justify-content: space-between;
 }
 
 .card{
     width: 150px;
     aspect-ratio: 1;
-    vertical-align: middle;
+    line-height: 150px;
     text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 .card.number{
