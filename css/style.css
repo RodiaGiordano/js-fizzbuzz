@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #083B4C;
+}
+
+h1{
+    text-align: center;
+    margin: 50px;
+    font-size: 4rem;
+    color: white;
+
+}
+
+#container_card{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card{
+    width: 150px;
+    aspect-ratio: 1;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.card.number{
+    background-color: #1389B2;
+}
+
+.card.fizz{
+    background-color: #0CD6A1;
+}
+
+.card.buzz{
+    background-color: #FFD166;
+}
+
+.card.fizzbuzz{
+    background-color: #F0466F;
+}
