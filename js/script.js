@@ -13,11 +13,7 @@ const cardFizzBuzz = '<div class="card fizzbuzz">FizzBuzz</div>';
 
  for (let i = 1; i <=100; i++ ){
 
-    containerCard.innerHTML += cardNumber;
-        
-    const progress = containerCard.querySelector('.card.number #progress');
-    progress.innerHTML = i;
-
+    
     if (i % 3 == 0 && i % 5 == 0){
 
         containerCard.innerHTML += cardFizzBuzz;
@@ -32,6 +28,14 @@ const cardFizzBuzz = '<div class="card fizzbuzz">FizzBuzz</div>';
     else if (i % 5 == 0) {
 
         containerCard.innerHTML += cardBuzz;
+    }
+
+    else{
+        containerCard.innerHTML += cardNumber;
+            
+        const progress = containerCard.querySelector('.card.number #progress');
+        progress.innerHTML = i;
+
     }
 
     
